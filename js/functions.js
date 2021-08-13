@@ -157,4 +157,4 @@ $(function () {
 });
 
 // 画像を1時間ごとに変更。if文にはしなくて、画像の名前に〇〇1、〇〇2と名前を付けて時間+1で画像の変化を設定するとif文より短く書ける。
-$('body').css(('background-image' + 1), ('url(images/cat@2x.jpg)' + 1));
+// $('body').css(('background-image' + 1), ('url(images/cat@2x.jpg)' + 1));
