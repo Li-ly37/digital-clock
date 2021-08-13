@@ -1,6 +1,6 @@
 {
-  "short_name": "アプリ名（ショートネーム）",
-  "name": "アプリ名（フルネーム）",
+  "short_name": "デジタル時計",
+  "name": "デジタル時計",
   "display": "standalone",
   "start_url": "./digital-clock/",
   "theme_color": "red",
