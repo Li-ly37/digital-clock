@@ -140,8 +140,8 @@ $(function () {
       ampm = 'PM';
     }
     const ampmHour = (now.getHours() % 12).toString().padStart(2, '0'); //割った余りを表示される
-    console.log(ampmHour);
-    $('#hour').text(ampmHour);
+    // console.log(ampmHour);
+    $('#hour').text(hour);
     $('#minute').text(minute);
     $('#second').text(second);
     $('#year').text(year);
