@@ -1,0 +1,45 @@
+// 画像が大きく表示されるため設定する
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: mediumaquamarine;
+
+  // 日本語が使えるかどうか。使えない場合はいつものセットを読み込んで一番前に貼り付ける。'Vast Shadow'を読み込むのに1秒ほどかかるため、ダウンロードが終わるまでにcursiveを設定する（曖昧設定）。来た瞬間に優先の言葉に変更（1番目に）。
+  font-family: 'Vast Shadow', cursive;
+  background-image: url(../images/penguin@2x.jpg);
+
+  // 写真は@2xを使う。大きくなって見切れてしまうため下記設定する。
+  background-size: cover;
+}
+
+
+.app {
+  margin-top: 0;
+
+  .time {
+    color: #FF006F;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 40px;
+  }
+
+  .day {
+    color: #000CA5;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .week {
+    color: #FF006F;
+    font-size: 35px;
+    text-align: center;
+  }
+
+}
