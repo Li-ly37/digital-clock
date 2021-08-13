@@ -2,7 +2,7 @@
   "short_name": "アプリ名（ショートネーム）",
   "name": "アプリ名（フルネーム）",
   "display": "standalone",
-  "start_url": "/",
+  "start_url": "./digital-clock/",
   "theme_color": "red",
   "background_color": "blue",
   "icons": [{
